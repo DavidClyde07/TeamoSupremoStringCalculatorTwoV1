@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System;
 using StringCalculatorLibrary;
 
-
 namespace StringCalculator.tests
 {
     public class ValidateNumbersTests
