@@ -1,7 +1,9 @@
+using System.Collections.Generic;
+
 namespace StringCalculatorLibrary.Interfaces
 {
     public interface IConvertLetterToNumber
     {
-        string ConvertLettersToNumbers(string input);
+        IEnumerable<int> ConvertListOfStringToListOfInt(IEnumerable<string> input);
     }
 }
